@@ -13,7 +13,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-6xl md:text-8xl font-bold font-fira-sans"
+          className="text-6xl md:text-8xl font-bold font-fira-sans pointer-events-none"
         >
           Hi, I'm <span className="text-pink-500">Amlan</span>
         </motion.h1>
@@ -22,9 +22,9 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="mt-6 text-xl md:text-2xl text-gray-300 font-fira-sans"
+          className="mt-6 text-xl md:text-2xl text-gray-300 font-fira-sans lg:max-w-[600px] mx-auto pointer-events-none"
         >
-          I build modern and interactive web experiences.
+          I am a full stack developer and I build modern and interactive webapps and websites.
         </motion.p>
 
         <motion.div
