@@ -113,7 +113,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="#"
+              href="linkedin.com/in/amlan-mohapatra-6584503b3"
               className="hover:text-pink-500 transition duration-300"
             >
               <FaLinkedin />
