@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex items-center justify-center bg-[#0f0f0f] text-white relative overflow-hidden">
+    <section className="h-screen flex items-center justify-center bg-[#0f0f0f] text-white relative overflow-hidden font-fira-sans">
 
       <div className="absolute w-125 h-125 bg-pink-500/20 blur-[120px] rounded-full -top-25 -left-25 animated-orbs"/>
       <div className="absolute w-125 h-125 bg-cyan-500/20 blur-[120px] rounded-full -bottom-25 -right-25 animated-orbs"/>

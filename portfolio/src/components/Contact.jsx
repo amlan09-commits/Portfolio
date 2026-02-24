@@ -83,7 +83,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative min-h-screen bg-[#0f0f0f] text-white flex items-center px-6 sm:px-10 md:px-20 py-16"
+      className="relative min-h-screen bg-[#0f0f0f] text-white flex items-center px-6 sm:px-10 md:px-20 py-16 font-fira-sans"
     >
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 

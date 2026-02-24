@@ -48,7 +48,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen bg-[#0f0f0f] text-white px-6 sm:px-10 md:px-20 py-20"
+      className="min-h-screen bg-[#0f0f0f] text-white px-6 sm:px-10 md:px-20 py-20 font-fira-sans"
     >
       <div className="max-w-6xl mx-auto">
 
