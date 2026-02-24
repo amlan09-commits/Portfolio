@@ -42,7 +42,12 @@ const Hero = () => {
             About me
           </button>
 
-          <button className="px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black rounded-xl font-semibold transition duration-300 cursor-pointer">
+          <button className="px-6 py-3 border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black rounded-xl font-semibold transition duration-300 cursor-pointer"
+          onClick={() => {
+            document.getElementById("contact").scrollIntoView({
+              behavior: "smooth",
+            });
+          }}>
             Contact Me
           </button>
         </motion.div>
