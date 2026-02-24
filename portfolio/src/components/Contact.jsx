@@ -56,10 +56,10 @@ const Contact = () => {
       setLoading(true);
 
       await emailjs.send(
-        "service_ti82xo2",
-        "template_vpwifsr",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        "lJcQpYQpp9s41oJ52"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
       alert("Message sent successfully 🚀");
