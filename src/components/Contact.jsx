@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
@@ -120,10 +120,11 @@ const Contact = () => {
             </a>
 
             <a
-              href="mailto:yourmail@gmail.com"
+              href="https://wa.me/916370308546"
+              target="_blank"
               className="hover:text-pink-500 transition duration-300"
             >
-              <FaEnvelope />
+              <FaWhatsapp />
             </a>
           </div>
         </motion.div>
