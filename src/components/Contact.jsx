@@ -199,7 +199,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-3 bg-pink-500 hover:bg-pink-600 transition duration-300 rounded-xl shadow-lg shadow-pink-500/30 disabled:opacity-60"
+            className="w-full py-3 bg-pink-500 hover:bg-pink-600 transition duration-300 rounded-xl shadow-lg shadow-pink-500/30 disabled:opacity-60 cursor-pointer"
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
